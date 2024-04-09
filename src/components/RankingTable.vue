@@ -1,14 +1,22 @@
+<script setup lang="ts">
+import { ref } from 'vue';
+
+const platform =ref('web')
+
+</script>
+
 <template>
 <div class="overflow-x-auto">
   <table class="table-md">
     <!-- head -->
     <thead>
       <tr>
-        <th>Rank</th>
+        <th></th>
         <th>Roaster</th>
         <th>Name</th>
-        <th>Region/Blend</th>
+        <th v-if="platform != 'mobile'" >Region/Blend</th>
         <th>Process</th>
+        <th>Score</th>
         <th>Upvote</th>
         <th>Downvote</th>
       </tr>
@@ -20,8 +28,9 @@
         <td>1</td>
         <td>Onyx</td>
         <th>Southern Weather</th>
-        <td>Blend</td>
+        <td v-if="platform != 'mobile'">Blend</td>
         <td>Washed</td>
+        <td>---</td>
         <th>
           <label>
             <button class="btn">
@@ -47,8 +56,9 @@
         <td>2</td>
         <td>Brandywine Coffee Roasters</td>
         <th>Ethiopia Worka</th>
-        <td>Ethiopia</td>
+        <td v-if="platform != 'mobile'" >Ethiopia</td>
         <td>Anerobic Natural</td>
+        <td>---</td>
         <th>
         <label>
           <button class="btn">
