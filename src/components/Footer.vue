@@ -1,21 +1,15 @@
 <template>
   <footer class="footer p-10 bg-neutral text-neutral-content static bottom-0">
     <nav>
-      <h6 class="footer-title">Services</h6>
-      <a class="link link-hover">Scheduling</a>
-      <a class="link link-hover">Staff Management</a>
-      <a class="link link-hover">Tips Distribution</a>
+      <h6 class="footer-title">CoffeeDex</h6>
+      <a class="link link-hover">Home</a>
+      <a class="link link-hover">Leaderboard</a>
     </nav>
     <nav>
-      <h6 class="footer-title">Company</h6>
-      <a class="link link-hover">About us</a>
+      <h6 class="footer-title">About</h6>
+      <a class="link link-hover">Info</a>
       <a class="link link-hover">Contact</a>
-    </nav>
-    <nav>
-      <h6 class="footer-title">Legal</h6>
-      <a class="link link-hover">Terms of use</a>
-      <a class="link link-hover">Privacy policy</a>
-      <a class="link link-hover">Cookie policy</a>
+      <a class="link link-hover">Issues/Bugs?</a>
     </nav>
   </footer>
 </template>

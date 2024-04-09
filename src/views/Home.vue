@@ -8,7 +8,7 @@
     <div class="max-w-md">
       <h1 class="text-5xl font-bold">Gotta brew them all</h1>
       <p class="py-6">Ever wonder how the coffee you drink stack up to what others are drinking. CoffeeDex is your virtual leaderboard for coffee from some of the best roasters around the world.</p>
-      <button class="btn btn-secondary"><RouterLink to="/leaderboard">See where your coffee ranks</RouterLink></button>
+      <button class="btn btn-secondary"><RouterLink to="/leaderboard">See Rankings</RouterLink></button>
     </div>
   </div>
 </div>
