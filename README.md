@@ -1,2 +1,1 @@
-# coffeedex
-Coffee offering leaderboard application
+# CoffeeDex
