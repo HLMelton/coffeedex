@@ -10,8 +10,6 @@ declare module 'vue' {
     Footer: typeof import('./src/components/Footer.vue')['default']
     Leaderboard: typeof import('./src/components/Leaderboard.vue')['default']
     Navbar: typeof import('./src/components/Navbar.vue')['default']
-    Roaster: typeof import('./src/components/Roaster.vue')['default']
-    RoasterOfferings: typeof import('./src/components/RoasterOfferings.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
